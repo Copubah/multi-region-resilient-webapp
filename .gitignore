@@ -1,0 +1,267 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+.terraform/
+.terraform.lock.hcl
+terraform.tfplan
+tfplan
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# AWS
+.aws/
+aws-exports.js
+amplify-build-config.json
+amplify-gradle-config.json
+amplifytools.xcconfig
+
+# Docker
+.dockerignore
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variable files
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+out
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+storybook-static
+
+# Temporary folders
+tmp/
+temp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+# Terraform outputs
+primary-outputs.json
+secondary-outputs.json
+
+# Test results
+failover-monitor.log
+test-results/
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# SSL certificates (if any)
+*.pem
+*.key
+*.crt
+*.csr
+
+# Database dumps
+*.sql
+*.dump
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+
+# IDE files
+*.swp
+*.swo
+*~
+
+# Local configuration files
+config.local.json
+settings.local.json
+
+# Kubernetes
+*.kubeconfig
+
+# Helm
+charts/*.tgz
+
+# Local development
+.local/
+local/
+
+# Monitoring and logging
+monitoring/
+grafana/
+prometheus/
+
+# Secrets
+secrets/
+.secrets/
+*.secret
+
+# Build artifacts
+build/
+target/
+bin/
+obj/
+
+# Package files
+*.deb
+*.rpm
+*.msi
+*.dmg
+*.pkg
+
+# Application specific
+application/fastapi-app/.env
+application/fastapi-app/config.py
+
+# ECR login helper
+.docker/
+
+# Ansible
+*.retry
+
+# Vagrant
+.vagrant/
+
+# Packer
+packer_cache/
+
+# Local state files
+.local-state/
+
+# Temporary test files
+test-*.tmp
+*.test
+
+# Performance test results
+performance-results/
+
+# Load test results
+load-test-results/
+
+# Chaos engineering results
+chaos-test-results/

@@ -1,0 +1,11 @@
+project_name       = "resilient-webapp"
+environment        = "primary"
+region             = "us-east-1"
+domain_name        = "example.com"
+vpc_cidr           = "10.0.0.0/16"
+availability_zones = ["us-east-1a", "us-east-1b", "us-east-1c"]
+container_image    = "your-account.dkr.ecr.us-east-1.amazonaws.com/resilient-webapp:latest"
+container_port     = 8000
+desired_count      = 2
+db_instance_class  = "db.r5.large"
+notification_email = "alerts@example.com"
