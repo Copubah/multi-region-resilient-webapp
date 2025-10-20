@@ -227,12 +227,12 @@ Estimated monthly cost: $200-500 depending on traffic and usage patterns.
 
 ## Repository Information
 
-**GitHub Repository**: https://github.com/Copubah/multi-region-resilient-webapp
+-GitHub Repository: https://github.com/Copubah/multi-region-resilient-webapp
 
-**Clone Repository**:
+## Clone Repository:
 ```bash
 git clone https://github.com/Copubah/multi-region-resilient-webapp.git
 cd multi-region-resilient-webapp
 ```
 
-**Issues and Contributions**: https://github.com/Copubah/multi-region-resilient-webapp/issues
+## Issues and Contributions : https://github.com/Copubah/multi-region-resilient-webapp/issues
