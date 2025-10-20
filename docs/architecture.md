@@ -4,6 +4,8 @@
 
 This architecture provides high availability and disaster recovery across two AWS regions (us-east-1 and us-west-2) with automatic failover capabilities.
 
+**Repository**: https://github.com/Copubah/multi-region-resilient-webapp
+
 ## Architecture Components
 
 ### 1. Networking Layer

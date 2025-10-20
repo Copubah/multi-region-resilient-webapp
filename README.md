@@ -210,10 +210,10 @@ watch -n 10 'curl -s https://your-domain.com/api/status | jq ".region"'
 
 ## Documentation
 
-- [Architecture Details](docs/architecture.md) - Comprehensive architecture explanation
-- [Deployment Guide](docs/deployment-guide.md) - Step-by-step deployment instructions
-- [Failover Testing](docs/failover-testing.md) - Complete testing procedures
-- [Resilience Explanation](docs/resilience-explanation.md) - How each service contributes to resilience
+- [Architecture Details](https://github.com/Copubah/multi-region-resilient-webapp/blob/main/docs/architecture.md) - Comprehensive architecture explanation
+- [Deployment Guide](https://github.com/Copubah/multi-region-resilient-webapp/blob/main/docs/deployment-guide.md) - Step-by-step deployment instructions
+- [Failover Testing](https://github.com/Copubah/multi-region-resilient-webapp/blob/main/docs/failover-testing.md) - Complete testing procedures
+- [Resilience Explanation](https://github.com/Copubah/multi-region-resilient-webapp/blob/main/docs/resilience-explanation.md) - How each service contributes to resilience
 
 ## Cost Optimization
 
@@ -224,3 +224,15 @@ The architecture is designed for cost efficiency:
 - CloudFront: Reduced origin server load
 
 Estimated monthly cost: $200-500 depending on traffic and usage patterns.
+
+## Repository Information
+
+**GitHub Repository**: https://github.com/Copubah/multi-region-resilient-webapp
+
+**Clone Repository**:
+```bash
+git clone https://github.com/Copubah/multi-region-resilient-webapp.git
+cd multi-region-resilient-webapp
+```
+
+**Issues and Contributions**: https://github.com/Copubah/multi-region-resilient-webapp/issues

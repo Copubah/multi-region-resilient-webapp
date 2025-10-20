@@ -161,6 +161,7 @@ show_repo_info() {
     echo "- Architecture: $REPO_URL/blob/main/docs/architecture.md"
     echo "- Deployment Guide: $REPO_URL/blob/main/docs/deployment-guide.md"
     echo "- Failover Testing: $REPO_URL/blob/main/docs/failover-testing.md"
+    echo "- Resilience Explanation: $REPO_URL/blob/main/docs/resilience-explanation.md"
     echo "=========================================="
 }
 

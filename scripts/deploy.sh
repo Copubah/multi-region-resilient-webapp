@@ -268,7 +268,7 @@ display_info() {
     
     echo
     echo "2. Confirm SNS subscription in your email"
-    echo "3. Test failover using the guide in docs/failover-testing.md"
+    echo "3. Test failover using: ./scripts/test-failover.sh --domain $DOMAIN_NAME"
     echo "4. Monitor your application using CloudWatch dashboards"
     echo
     echo "=== Useful Commands ==="

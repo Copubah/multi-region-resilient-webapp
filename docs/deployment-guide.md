@@ -2,6 +2,14 @@
 
 This guide walks you through deploying the multi-region resilient web application from scratch.
 
+## Repository Setup
+
+### Clone the Repository
+```bash
+git clone https://github.com/Copubah/multi-region-resilient-webapp.git
+cd multi-region-resilient-webapp
+```
+
 ## Prerequisites
 
 ### Required Tools
